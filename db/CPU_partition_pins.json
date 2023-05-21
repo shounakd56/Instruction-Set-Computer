@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outstates[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outstates[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
