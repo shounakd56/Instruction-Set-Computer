@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity OnebitFullAdder is
+port (a, b, cin : in std_logic;
+      sum, cout: out std_logic);
+
+end entity;
+architecture onebitfulladder of onebitfulladder is
+    signal sum1, c1,c2:std_logic;
+    
+    component onebithalfadder
+        port (in1, in2: in std_logic;
+              sum, cout: out std_logic);
+    end component;
+begin
+    obha1:onebithalfadder
+        port map(in1=>a,in2=>b,sum=>sum1,cout=>c1);
+    obha2:onebithalfadder
+        port map(in1=>cin,in2=>sum1,sum=>sum,cout=>c2);
+    cout<= c1 or c2 ;
+    
+    
+end architecture onebitfulladder;

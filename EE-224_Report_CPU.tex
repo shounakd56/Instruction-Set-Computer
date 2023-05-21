@@ -1,0 +1,204 @@
+\documentclass[10pt]{article}
+
+\usepackage[a4paper, left=2cm, right=2cm]{geometry} % A4 paper size and thin margins
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{float}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+\usepackage{media9}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Experiment 10} 
+\rhead{Section \thesection}
+\rfoot{Page \thepage}
+
+\usepackage{xcolor} % Required for specifying custom colours
+\definecolor{grey}{rgb}{0.9,0.9,0.9} % Colour of the box surrounding the title
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+%\usepackage[sfdefault]{ClearSans} % Use the Clear Sans font (sans serif)
+%\usepackage{XCharter} % Use the XCharter font (serif)
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\begin{document}
+
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	
+	%------------------------------------------------
+	%	Grey title box
+	%------------------------------------------------
+	
+	\colorbox{grey}{
+		\parbox[t]{0.93\textwidth}{ % Outer full width box
+			\parbox[t]{0.91\textwidth}{ % Inner box for inner right text margin
+				\raggedleft % Right align the text
+				\fontsize{50pt}{80pt}\selectfont % Title font size, the first argument is the font size and the second is the line spacing, adjust depending on title length
+				\vspace{0.7cm} % Space between the start of the title and the top of the grey box
+				
+				\textbf{EE-224 Project: CPU}  \hspace{4pt}
+				
+				\vspace{0.7cm} % Space between the end of the title and the bottom of the grey box
+			}
+		}
+	}
+	
+	\vfill % Space between the title box and author information
+	
+	%------------------------------------------------
+	%	Author name and information
+	%------------------------------------------------
+	
+	\parbox[t]{0.93\textwidth}{ % Box to inset this section slightly
+		\raggedleft % Right align the text
+		\large % Increase the font size
+        \hfill\rule{0.2\linewidth}{1pt} \\
+		{\Large Vinay Sutar(21d070078) \\ Shounak Das(21d070068) \\ Aditya Anand(21d070007) \\ Parth Arora(21d070047) \\ Daksh Pakal(210070023)}\\[4pt] % Extra space after name
+        \hfill\rule{0.2\linewidth}{1pt} \\
+		  November 2022\\[4.8pt] % Extra space before URL
+		
+		\hfill\rule{0.2\linewidth}{1pt}% Horizontal line, first argument width, second thickness
+	}
+	
+\end{titlepage}
+\newpage
+\restoregeometry 
+
+\tableofcontents
+
+\newpage
+\Large
+\section{\textbf{Instructions}}
+
+\subsection{\textbf{\color{blue}{Types}}}
+\begin{figure}[H]
+    \centering
+    \includegraphics{Screenshot 2022-11-30 012028.png}
+    \caption{Types of Instructions}
+    \label{fig:my_label1}
+\end{figure}
+
+\subsection{\textbf{\color{blue}{Instructions}}}
+\begin{figure}[H]
+    \centering
+    \includegraphics{Screenshot 2022-11-30 012059.png}
+    \caption{Instructions}
+    \label{fig:my_label2}
+\end{figure}
+
+\subsection{\textbf{\color{blue}{Instruction Description}}}
+\begin{figure}[H]
+    \centering
+    \includegraphics{Screenshot 2022-11-30 144523.png}
+    \label{fig:my_label6}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{Screenshot 2022-11-30 144543.png}
+	\caption{Instruction Description}
+    \label{fig:my_label7}
+\end{figure}
+
+\newpage
+
+\section{\textbf{Components}}
+
+\subsection{\textbf{\color{blue}{Instruction Register}}}
+Memory from the register is read (\textit{irw='1'}) and stored as a signal \textit{instruction}. The first 4 bits (15 downto 12) of the instruction is the \textit{opcode}, the next 3 bits is the \textit{register A} (11 downto 9), the next 3 bits is the \textit{register B} (8 downto 6), the next 3 bits is the \textit{register C} (5 downto 3), 3rd bit is unused and (1 downto 0) i.e. the last 2 bits correspond to the \textit{carry and zero flag}. 
+
+\subsection{\textbf{\color{blue}{Memory/RAM}}}
+The input variable \textit{init} when goes high, leads to the instruction (15 downto 0) (16 bits) to be read into storage element named $ store_ram $
+The instruction contains information about opcode, registers and carry and zero flags.
+\\ The variable \textit{mread} going high(='1') results in reading of data($ store_ram $) as \textbf{dout}, while \textit{mwrite} corresponds to writing of data in the variable \textbf{din} for further processing.
+
+\subsection{\textbf{\color{blue}{Register File}}}
+The \textit{registerwrite} variable allows the data to be transfered from the input $ din_m $ to the register. Data from 2 registers is required to execute the desired instruction. These 2 registers viz \textit{Register A} and \textit{Register B} (out of 8) are chosen depending on the values of variable \textit{registerselector}. The data from the instruction is sent to the selected registers for further processing in the ALU.
+
+\subsection{\textbf{\color{blue}{ALU}}}
+Here various processes (like add, subtract, multiply etc) are performed on the 2 inputs (\textit{inp1, inp2}).
+Selector is a variable that triggers the operation to be performed on the inputs.
+The output is then used to decide carry and zero flag as shown in the code.
+
+\subsection{\textbf{\color{blue}{RISC}}}
+This is the main file connecting all the components.
+Initially the states are initialized in order as constant signals. All the individual components are included here. Further the opcodes of the instructions are initialized as written in the code.
+
+\subsection{\textbf{\color{blue}{Sequencer}}}
+
+\subsection{\textbf{\color{blue}{Sign Extender}}}
+
+\subsection{\textbf{\color{blue}{Sixteen Bit Adder}}}
+
+\newpage
+
+\section{\textbf{Dataflow}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=18cm,height=14cm]{Screenshot 2022-11-30 013403.png}
+	\caption{Dataflow}
+    \label{fig:my_label3}
+\end{figure}
+
+\newpage
+
+\section{\textbf{Implementation}}
+The memory component has the following ‘in’ ports: 
+\begin{enumerate}
+\item state: denoting the state of the machine 
+\item init: to store predefined instructions in the memory 
+\item mr: bit for memory read 
+\item mw: bit for memory write 
+\item dataPointer: denoting address in the memory 
+\item di: data in
+It has only one ‘out’ port:
+\begin{enumerate}
+\item do: data out
+\end{enumerate}
+\end{enumerate}
+
+\section{\textbf{RTL Diagram}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=18cm,height=18cm]{Screenshot 2022-11-30 173041.png}
+	\caption{RTL Diagram}
+    \label{fig:my_label4}
+\end{figure}
+
+\section{\textbf{Technology Viewer Diagram}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=18cm,height=10cm]{Screenshot 2022-11-30 172949.png}
+    \caption{Technology Viewer Diagram}
+    \label{fig:my_label8}
+\end{figure}
+
+\section{Waveform}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=19cm,height=6cm]{Screenshot 2022-11-30 143239.png}
+	\caption{Waveform}
+    \label{fig:my_label5}
+\end{figure}
+
+\end{document}
+
+
+
