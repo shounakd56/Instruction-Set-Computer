@@ -1,0 +1,441 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim
+Ealu
+Z1 w1669806834
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+!i122 7
+R0
+Z7 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/ALU.vhd
+Z8 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/ALU.vhd
+l0
+L5 1
+V<e9R6hKYA]lB5>Rnf];jI2
+!s100 XbG68>ABZN77>edm2z5:?0
+Z9 OV;C;2020.1;71
+31
+Z10 !s110 1669814577
+!i10b 1
+Z11 !s108 1669814577.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/ALU.vhd|
+Z13 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/ALU.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehave
+R2
+R3
+R4
+R5
+R6
+DEx4 work 3 alu 0 22 <e9R6hKYA]lB5>Rnf];jI2
+!i122 7
+l27
+L16 35
+Vh2[0:Jn6jjZ3cn^mhgQDW1
+!s100 @00Fk@CD9;NnMjH2B<g2I2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ecpu
+Z16 w1669809410
+R3
+R6
+R2
+R4
+R5
+!i122 6
+R0
+Z17 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/CPU.vhd
+Z18 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/CPU.vhd
+l0
+L17 1
+V3kN?:498U32o@Gi<j_3SP0
+!s100 DgeUBK:Llb@6G_KL2K7;;1
+R9
+31
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/CPU.vhd|
+Z20 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/CPU.vhd|
+!i113 1
+R14
+R15
+Artl
+R3
+R6
+R2
+R4
+R5
+DEx4 work 3 cpu 0 22 3kN?:498U32o@Gi<j_3SP0
+!i122 6
+l158
+L23 442
+VRT@CfE3]bcK_99cmgg^BC1
+!s100 N180ZOo?k1YG4GdFddfYZ1
+R9
+31
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R15
+Ecpu_vhd_vec_tst
+Z21 w1669806852
+R4
+R5
+!i122 9
+R0
+Z22 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht
+Z23 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht
+l0
+L32 1
+VCHKcBfkVcNkMQfeF]ke1D0
+!s100 MT_2[ECbSh>ONUcARUP8c0
+R9
+31
+Z24 !s110 1669814578
+!i10b 1
+R11
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht|
+!s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht|
+!i113 1
+R14
+R15
+Acpu_arch
+R4
+R5
+DEx4 work 15 cpu_vhd_vec_tst 0 22 CHKcBfkVcNkMQfeF]ke1D0
+!i122 9
+l45
+L34 31
+VoNYB]@dW[80SkGO<JLY9Z0
+!s100 ]YEFZQTjJ[61WfCG<<I^G3
+R9
+31
+R24
+!i10b 1
+R11
+R25
+Z26 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht|
+!i113 1
+R14
+R15
+Efulladder
+R1
+R4
+R5
+!i122 5
+R0
+Z27 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Fulladder.vhd
+Z28 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Fulladder.vhd
+l0
+L3 1
+Vbmi8f^WoEV6bKWY^JRcDn2
+!s100 >ZjjnKiEjVk8K;>RIGe8n3
+R9
+31
+R10
+!i10b 1
+R11
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Fulladder.vhd|
+Z30 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Fulladder.vhd|
+!i113 1
+R14
+R15
+Afulladder
+R4
+R5
+DEx4 work 9 fulladder 0 22 bmi8f^WoEV6bKWY^JRcDn2
+!i122 5
+l15
+L8 16
+Ve2QklZ4o6SFC1mk6PCkoB0
+!s100 W_NAFgYG=K=N0fI@U<TSM2
+R9
+31
+R10
+!i10b 1
+R11
+R29
+R30
+!i113 1
+R14
+R15
+Ehalfadder
+R1
+R4
+R5
+!i122 4
+R0
+Z31 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Halfadder.vhd
+Z32 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Halfadder.vhd
+l0
+L4 1
+Vfa7[;QR1LkNGfDHJh3`<k3
+!s100 Y?Z7Dbj3lOMZAJD>[SMV?2
+R9
+31
+R10
+!i10b 1
+Z33 !s108 1669814576.000000
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Halfadder.vhd|
+Z35 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Halfadder.vhd|
+!i113 1
+R14
+R15
+Ahalfadder
+R4
+R5
+DEx4 work 9 halfadder 0 22 fa7[;QR1LkNGfDHJh3`<k3
+!i122 4
+l10
+L9 5
+VQzVken2?=iG_mG?EobiFz3
+!s100 7ndf1h]FN<8j9:4Q=^S4Q1
+R9
+31
+R10
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R14
+R15
+Einstrreg
+Z36 w1669806836
+R2
+R4
+R5
+!i122 3
+R0
+Z37 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/InstructionReg.vhd
+Z38 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/InstructionReg.vhd
+l0
+L5 1
+V4b>iOGeLDfAoJSD_2BMhS1
+!s100 68A0CiO@_7:c`XI`GS<M:0
+R9
+31
+Z39 !s110 1669814576
+!i10b 1
+R33
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/InstructionReg.vhd|
+Z41 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/InstructionReg.vhd|
+!i113 1
+R14
+R15
+Abehave
+R2
+R4
+R5
+DEx4 work 8 instrreg 0 22 4b>iOGeLDfAoJSD_2BMhS1
+!i122 3
+l25
+L22 24
+V:>4>ae6`HghX:LBJDI3Da0
+!s100 =18o4LWHc5ZCHLV4IeHWI3
+R9
+31
+R39
+!i10b 1
+R33
+R40
+R41
+!i113 1
+R14
+R15
+Ememory
+R36
+R2
+R4
+R5
+!i122 2
+R0
+Z42 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Memory.vhd
+Z43 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Memory.vhd
+l0
+L7 1
+Vh:SiLNfP@4YPJ[M=mKTIV2
+!s100 eOlM6n;`A>`G0_8aS6ZYU0
+R9
+31
+R39
+!i10b 1
+R33
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Memory.vhd|
+Z45 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Memory.vhd|
+!i113 1
+R14
+R15
+Amembehave
+R2
+R4
+R5
+DEx4 work 6 memory 0 22 h:SiLNfP@4YPJ[M=mKTIV2
+!i122 2
+l20
+L17 33
+V>R55O`:F8bSOPzMZFm=4A0
+!s100 6A_T^iNeG:lo`?QE??=aW2
+R9
+31
+R39
+!i10b 1
+R33
+R44
+R45
+!i113 1
+R14
+R15
+Eregisterfile
+R36
+R2
+R4
+R5
+!i122 1
+R0
+Z46 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/RegisterFile.vhd
+Z47 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/RegisterFile.vhd
+l0
+L7 1
+V:Dh]F>J1of6M=2^iVBRnf3
+!s100 ^z>E56S5AIYeUFiEdVk;K3
+R9
+31
+R39
+!i10b 1
+R33
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/RegisterFile.vhd|
+Z49 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/RegisterFile.vhd|
+!i113 1
+R14
+R15
+Abehave
+R2
+R4
+R5
+DEx4 work 12 registerfile 0 22 :Dh]F>J1of6M=2^iVBRnf3
+!i122 1
+l24
+L19 68
+V7AhBY]eH9_SLIOREi_Jac3
+!s100 19f=4=Q9o=LUOU`7C<Hzl3
+R9
+31
+R39
+!i10b 1
+R33
+R48
+R49
+!i113 1
+R14
+R15
+Esequencer
+R36
+R2
+R4
+R5
+!i122 0
+R0
+Z50 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Sequencer.vhd
+Z51 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Sequencer.vhd
+l0
+L8 1
+VzZ3T1kd>QdW>DG^Wc:;hd0
+!s100 EmfhZP6[`9Z9W@I0ZfC691
+R9
+31
+Z52 !s110 1669814575
+!i10b 1
+Z53 !s108 1669814575.000000
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Sequencer.vhd|
+Z55 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Sequencer.vhd|
+!i113 1
+R14
+R15
+Abehave
+R2
+R4
+R5
+DEx4 work 9 sequencer 0 22 zZ3T1kd>QdW>DG^Wc:;hd0
+!i122 0
+l16
+L14 20
+VbX8jfOR4>EU@j5ABV8Sj42
+!s100 MfEK^`ljQW3dcdE9hVR_i2
+R9
+31
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R14
+R15
+Esixteenbitadder
+R1
+R4
+R5
+!i122 8
+R0
+Z56 8C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/16bitadder.vhd
+Z57 FC:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/16bitadder.vhd
+l0
+L4 1
+Vmal1NI]K1`FAJHK`]51@<2
+!s100 `J^2g>akHM`mYHbI@BiEH0
+R9
+31
+R10
+!i10b 1
+R11
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/16bitadder.vhd|
+Z59 !s107 C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/16bitadder.vhd|
+!i113 1
+R14
+R15
+Asixteenbitadder
+R4
+R5
+DEx4 work 15 sixteenbitadder 0 22 mal1NI]K1`FAJHK`]51@<2
+!i122 8
+l19
+L12 25
+V_aS8WE1k=>YzU5`FQXkG`3
+!s100 EYfEz<5TWZe1l[c`z`U;M3
+R9
+31
+R10
+!i10b 1
+R11
+R58
+R59
+!i113 1
+R14
+R15

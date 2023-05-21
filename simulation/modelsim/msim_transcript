@@ -1,0 +1,440 @@
+# Reading pref.tcl
+# do CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Sequencer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:55 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Sequencer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sequencer
+# -- Compiling architecture behave of sequencer
+# End time: 18:52:55 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/RegisterFile.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:56 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/RegisterFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registerfile
+# -- Compiling architecture behave of registerfile
+# End time: 18:52:56 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:56 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Memory
+# -- Compiling architecture membehave of memory
+# End time: 18:52:56 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/InstructionReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:56 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/InstructionReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity InstrReg
+# -- Compiling architecture behave of InstrReg
+# End time: 18:52:56 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Halfadder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:56 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Halfadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HalfAdder
+# -- Compiling architecture halfadder of halfadder
+# End time: 18:52:57 on Nov 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Fulladder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:57 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/Fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture fulladder of fulladder
+# End time: 18:52:57 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:57 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity CPU
+# -- Compiling architecture rtl of CPU
+# End time: 18:52:57 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:57 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture behave of alu
+# End time: 18:52:57 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/16bitadder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:57 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/16bitadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sixteenbitadder
+# -- Compiling architecture sixteenbitadder of sixteenbitadder
+# End time: 18:52:57 on Nov 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:52:57 on Nov 30,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/SHOUNAK DAS/Desktop/224_Project/EE224 Project/CPUProject/simulation/modelsim/Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU_vhd_vec_tst
+# -- Compiling architecture CPU_arch of CPU_vhd_vec_tst
+# End time: 18:52:58 on Nov 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  CPU_vhd_vec_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" CPU_vhd_vec_tst 
+# Start time: 18:52:58 on Nov 30,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cpu_vhd_vec_tst(cpu_arch)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cpu(rtl)
+# Loading work.memory(membehave)
+# Loading work.registerfile(behave)
+# Loading work.alu(behave)
+# Loading work.sixteenbitadder(sixteenbitadder)
+# Loading work.fulladder(fulladder)
+# Loading work.halfadder(halfadder)
+# Loading work.instrreg(behave)
+# Loading work.sequencer(behave)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1
+# ** Note: udb in seq
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/seq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1
+# ** Note: dataPointer:0
+#    Time: 500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Note: dataPointer:1
+#    Time: 3500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 3500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 7  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3500 ps  Iteration: 8  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Note: dataPointer:1
+#    Time: 5500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:2
+#    Time: 8500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 8500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:2
+#    Time: 9500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:3
+#    Time: 12500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 12500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:3
+#    Time: 13500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:4
+#    Time: 16500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 16500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:4
+#    Time: 18500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:5
+#    Time: 21500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 21500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:5
+#    Time: 23500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:6
+#    Time: 26500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 26500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:6
+#    Time: 28500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:7
+#    Time: 31500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 31500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:7
+#    Time: 33500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:8
+#    Time: 36500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:9
+#    Time: 40500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:47
+#    Time: 40500 ps  Iteration: 9  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:16
+#    Time: 40500 ps  Iteration: 10  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:92
+#    Time: 40500 ps  Iteration: 11  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41500 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Note: dataPointer:54
+#    Time: 42500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:9
+#    Time: 42500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:10
+#    Time: 45500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:46
+#    Time: 45500 ps  Iteration: 9  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:20
+#    Time: 45500 ps  Iteration: 10  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:92
+#    Time: 45500 ps  Iteration: 11  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:92
+#    Time: 46500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:92
+#    Time: 47500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:54
+#    Time: 47500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:10
+#    Time: 47500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:11
+#    Time: 50500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 50500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50500 ps  Iteration: 8  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Note: dataPointer:11
+#    Time: 69500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69500 ps  Iteration: 8  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69500 ps  Iteration: 9  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69500 ps  Iteration: 10  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69500 ps  Iteration: 11  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Note: dataPointer:12
+#    Time: 72500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 72500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72500 ps  Iteration: 8  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 77500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 77500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 77500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 77500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 78500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 78500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 78500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 79500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 79500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 79500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 79500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 80500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 87500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 87500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 87500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 87500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 87500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 87500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 87500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 87500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 88500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 88500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 88500 ps  Iteration: 3  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:12
+#    Time: 91500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91500 ps  Iteration: 8  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91500 ps  Iteration: 9  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91500 ps  Iteration: 10  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91500 ps  Iteration: 12  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Note: dataPointer:13
+#    Time: 94500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 94500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Note: dataPointer:0
+#    Time: 94500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 94500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95500 ps  Iteration: 2  Instance: /cpu_vhd_vec_tst/i1
+# ** Note: dataPointer:13
+#    Time: 96500 ps  Iteration: 5  Instance: /cpu_vhd_vec_tst/i1/mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96500 ps  Iteration: 7  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96500 ps  Iteration: 8  Instance: /cpu_vhd_vec_tst/i1/aluInst
+# ** Note: dataPointer:14
+#    Time: 99500 ps  Iteration: 4  Instance: /cpu_vhd_vec_tst/i1/mem
+# End time: 18:53:25 on Nov 30,2022, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 80
